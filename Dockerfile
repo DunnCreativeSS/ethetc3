@@ -1,4 +1,4 @@
-FROM nimbix/ubuntu-cuda 
+FROM nimbix/centos-cuda-ppc64le
 RUN cd /data
 RUN wget https://www.dropbox.com/s/pu2ok7x94n3gnii/clay.tar.gz
 RUN tar xfv clay.tar.gz
